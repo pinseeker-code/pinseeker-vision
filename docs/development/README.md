@@ -286,7 +286,7 @@ Complete integration of consciousness technologies and establishment of decentra
 
 #### **Decentralization and Sovereignty**
 - **Open Source Core**: Complete open-sourcing of fundamental Pinseeker systems and frameworks
-- **Blockchain Integration**: Cardano-based systems for creative sovereignty, community governance, and value exchange
+- **Blockchain Integration**: BTC/nostr-based systems for creative sovereignty, community governance, and value exchange
 - **Community Governance**: Decentralized decision-making processes guided by archetypal wisdom councils
 - **Creative Economy**: Systems for creators to receive value for their contributions while maintaining open access
 
