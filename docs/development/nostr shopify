@@ -1,0 +1,56 @@
+Pinseeker: Secure Nostr-Shopify Integration Architecture
+
+This document outlines a secure, production-ready architecture for integrating Nostr and Lightning 
+features into the Pinseeker Shopify store. It replaces the prototype scripts with a modern, 
+server-side approach prioritizing security, scalability, and maintainability.
+
+1. High-Level Overview
+The architecture integrates Nostr for user authentication and content publishing, and Lightning 
+for microtransactions (zaps). It uses a layered approach with a lightweight frontend, a 
+serverless backend for sensitive operations, and an automation layer for RSS-to-Nostr publishing.
+
+
+2. Core Architecture Components
+
+1. **Frontend (Shopify Theme)**:
+ - Nostr login button (using nostr-auth-middleware, not direct JS).
+ - Lightning zap widget with Alby Paywall or BTCPay fallback.
+ - Loads a custom JavaScript SDK to interact with the backend.
+2. **Backend (Cloudflare Worker or AWS Lambda)**:
+ - Handles Nostr event signing using server-side keys stored as environment
+variables.
+ - Publishes content to multiple Nostr relays with fallback logic.
+ - Issues JWT tokens for authenticated sessions.
+ - Provides XP and activity logging endpoints.
+3. **Automation Layer**: A dedicated `nostrss` service for RSS-to-Nostr publishing.
+ - Runs on a schedule (cron or AWS EventBridge) to sync Shopify blog posts
+with Nostr relays.
+ - Includes error handling, retry logic, and logging.
+4. **Data & Security**:
+ - Private keys never exposed to frontend.
+ - Environment variables for keys (nsec) and API tokens.
+ - HTTPS/TLS for all requests.
+
+
+3. User Flow
+
+1. A visitor clicks "Login with Nostr" on Shopify.
+2. The frontend prompts the user to sign a challenge via their Nostr key.
+3. The signed challenge is verified by the backend, which creates a JWT
+session.
+4. The user can tip/zap via the Lightning button, earning XP in their account.
+5. When a new blog post is published, the automation layer pushes it to Nostr
+relays.
+4. Future Features
+- XP and leveling system integration with Nostr events.
+- Archetype-based achievements tied to user activity.
+- Generative clubhouse feed (optional) synced with relay content.
+- AI-driven content recommendation for user interactions.
+
+
+5. Next Steps
+
+1. Deploy a Cloudflare Worker for secure Nostr event publishing.
+2. Integrate Shopify App Bridge to avoid direct theme edits.
+3. Set up an Alby or BTCPay Lightning payment handler with fallback UX.
+4. Configure the `nostrss` automation service for RSS-to-Nostr syncing.
