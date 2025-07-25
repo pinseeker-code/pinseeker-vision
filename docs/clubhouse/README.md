@@ -39,11 +39,10 @@ The clubhouse evolves based on:
 - **Personal Sanctuaries**: Individual lockers that expand into meditation spaces
 - **Mirror of Truth**: Reflective surfaces that show both physical and energetic appearance
 - **Artifact Gallery**: Display of spiritual and creative items earned through play
-- **Gear Blessing Station**: Where equipment is consecrated for sacred play
+
 
 #### **AI Interactions**
 - **Preparation Rituals**: Guided centering and intention-setting
-- **Gear Selection**: Archetypal advice on equipment choices
 - **Transformation Support**: Assistance with avatar and energy adjustments
 - **Community Connection**: Introduction to other players and archetypes
 
@@ -285,7 +284,7 @@ The clubhouse evolves based on:
 #### **Archetypal Influence**
 - **Dominant Archetypes**: Zones temporarily reflect the energy of most active archetypes
 - **Balance Maintenance**: System ensures no single archetypal energy overwhelms the space
-- **Growth Facilitation**: Environment supports whatever growth is most needed by community
+- **Growth Facilitation**: Environment supports whatever growth is most needed by community, without manipulation.
 - **Mystery Preservation**: Some elements remain unknowable to maintain wonder and exploration
 
 ---
