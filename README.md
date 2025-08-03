@@ -5,7 +5,7 @@
 
 [![Phase](https://img.shields.io/badge/Phase-Vision%20Mapping-purple)]()
 [![Archetypes](https://img.shields.io/badge/Archetypes-12%20Pearson%20Framework-green)]()
-[![Platform](https://img.shields.io/badge/Platform-Unity%20WebGL-blue)]()
+[![Platform](godot)]()
 [![License](https://img.shields.io/badge/License-Open%20Source-gold)]()
 
 ## 🎯 **What is Pinseeker?**
