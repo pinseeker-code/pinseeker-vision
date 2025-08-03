@@ -34,7 +34,7 @@ A mythic, AI-driven, golf-inspired immersive experience that fuses sacred play, 
 
 ### 🛠️ **Development**
 - [🗺️ 5-Phase Roadmap](./docs/development/roadmap.md) - Complete development strategy
-- [⚙️ Technical Architecture](./docs/development/technical-vision.md) - Unity WebGL, AI Engine, Platform strategy
+- [⚙️ Technical Architecture](./docs/development/technical-vision.md) - Godot, AI Engine, Platform strategy
 - [🎮 MVP Specifications](./docs/development/mvp-driving-range.md) - Driving range + AI archetype companion demo
 
 ### 🌟 **Community & Creation**
@@ -58,7 +58,7 @@ A mythic, AI-driven, golf-inspired immersive experience that fuses sacred play, 
 - [ ] MVP driving range requirements
 
 ### **Next Milestone 🎯**
-**Phase 2 Launch**: Unity driving range MVP + AI Seeker companion demo
+**Phase 2 Launch**: Godot driving range MVP + AI Seeker companion demo
 
 ## 🎭 **The Archetypal Council**
 *Based on Carol S. Pearson's 12 Archetypal Framework*
