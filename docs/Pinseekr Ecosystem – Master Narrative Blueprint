@@ -13,8 +13,9 @@ Pinseekr combines a practical utility layer for real golf and a creative, spirit
 A. Pinseekr Golf Social App
 Purpose: Real-world golfers use this mobile-first application to:
 Organize tee times and events.
-Manage wagers and green fees in Bitcoin.
-Connect socially through Nostr.
+Keep score for a wide range of game types/ scoring models (stroke, match, skins, Wolf, Hammer, etc.)
+Manage wagers and cost splitting in Bitcoin.
+Connect socially through Nostr. Including live feed for active rounds.
 Post reviews and engage with courses.
 
 B. Pinseekr Core
